@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My prima app2</string>
+    <string name="edit_message">Entra una messagio</string>
+    <string name="button_send">Cerveza.</string>
+</resources>

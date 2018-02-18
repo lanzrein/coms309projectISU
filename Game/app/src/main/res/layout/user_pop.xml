@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="300dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:id="@+id/username"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/profilePicture"
+        android:text="Username" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level : "
+        android:layout_marginTop="10px"
+        android:layout_below="@id/username"
+        android:layout_toLeftOf="@id/profilePicture"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of wins : \n"
+        android:layout_marginTop="10px"
+        android:id="@+id/noWins"
+        />
+    <TextView
+        android:id="@+id/noLoss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noWins"
+
+        android:text="Number of loss : \n"
+        android:layout_marginTop="10px"
+        />
+    <TextView
+        android:id="@+id/personalMessage"
+        android:layout_below="@id/noLoss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message : "/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/profilePicture"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:id="@+id/addFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:layout_alignParentBottom="true"
+
+        android:text="Add"
+        android:onClick="addFriend"/>
+
+    <Button
+        android:id="@+id/closeFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@id/addFriend"
+        android:layout_toRightOf="@id/addFriend"
+        android:text="Close"
+        android:onClick="closePopUp"/>
+    <!--android:layout_below="@+id/image"-->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:layout_toRightOf="@id/closeFriend"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/reportUser"
+        android:text="Report"
+        android:onClick="reportUser"/>
+
+</RelativeLayout>

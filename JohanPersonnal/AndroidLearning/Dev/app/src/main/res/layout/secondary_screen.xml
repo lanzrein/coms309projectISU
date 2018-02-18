@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView android:id="@+id/text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Welcome to the second screen now go back by pressing button"
+        />
+    <Button android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="Yes press me pls"
+        android:onClick="onPressSec"
+        />
+
+    <Button android:id="@+id/popUpButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="Or press here to make a pop up appear !"
+        android:onClick="popUp"/>
+
+    <Button android:id="@+id/dragNDropScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Or here if you want to try out our awesome drag n drop features"
+        android:onClick="goToDragNDrop"/>
+
+    <Button android:id="@+id/client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maybe you want to try our brand new msg system"
+        android:onClick="goToClient"/>
+
+</LinearLayout>

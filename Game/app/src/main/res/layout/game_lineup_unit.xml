@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edu.iastate.cs.proj_309_vc_b_4.game.Activities.gameactivities.gamemenus.UnitEntryView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/game_lineup_entry_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:text="Unit"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="-"
+        android:id="@+id/game_lineup_entry_dec_button"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:id="@+id/game_lineup_entry_count"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:id="@+id/game_lineup_entry_inc"
+        android:text="+"/>
+
+
+</edu.iastate.cs.proj_309_vc_b_4.game.Activities.gameactivities.gamemenus.UnitEntryView>

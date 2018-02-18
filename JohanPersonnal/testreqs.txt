@@ -1,0 +1,14 @@
+Non functionnal reqs
+1) Performance (minimize lag)
+2) Scalability (so many can play)
+3) Efficiency (a user can be as efficient as he wishes to be ~~ degree of freedom)
+4) Maintainability ( easy for engineers to find a way through the program)
+5) Modularity ( DRY principle followed ) 
+6) Testability ( Lots of tests)
+
+
+others : 
+Correctness
+Usability 
+Integrity 
+Efficiency

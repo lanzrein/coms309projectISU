@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SettingsActivity">
+
+
+
+
+    <SeekBar
+        android:id="@+id/soundBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/soundText"
+        android:layout_toEndOf="@+id/deleteAcctText"
+        android:layout_toRightOf="@+id/deleteAcctText" />
+
+    <TextView
+        android:id="@+id/soundText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="49dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:id="@+id/brightnessBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/brightnessText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/soundBar"
+        android:layout_alignStart="@+id/soundBar" />
+
+
+    <TextView
+        android:id="@+id/brightnessText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brightness"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/soundText"
+        android:layout_alignLeft="@+id/soundText"
+        android:layout_alignStart="@+id/soundText" />
+
+    <TextView
+        android:id="@+id/editMessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Personnal Information"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignBaseline="@+id/editMessageButton"
+        android:layout_alignBottom="@+id/editMessageButton"
+        android:layout_alignLeft="@+id/brightnessText"
+        android:layout_alignStart="@+id/brightnessText" />
+
+    <Button
+        android:id="@+id/editMessageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@+id/brightnessText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/changePictureText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Profile Picture"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/editMessageText"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/editMessageText"
+        android:layout_alignStart="@+id/editMessageText" />
+
+
+    <Button
+        android:id="@+id/changePictureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Picture"
+        android:layout_alignBaseline="@+id/changePictureText"
+        android:layout_alignBottom="@+id/changePictureText"
+        android:layout_alignLeft="@+id/editMessageButton"
+        android:layout_alignStart="@+id/editMessageButton" />
+
+
+    <TextView
+        android:id="@+id/seeMyProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See my own profile"
+        android:layout_below="@id/changePictureText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_alignLeft="@id/changePictureText"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/seeMyProfileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:layout_below="@id/changePictureButton"
+        android:layout_alignBaseline="@id/seeMyProfile"
+        android:layout_alignBottom="@id/seeMyProfile"
+        android:layout_alignLeft="@id/changePictureButton"
+        android:layout_alignStart="@id/changePictureButton"/>
+
+    <TextView
+        android:id="@+id/sendEmailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send E-mail to Admin Team"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/changePictureButton"
+        android:layout_alignLeft="@+id/changePictureText"
+        android:layout_alignStart="@+id/changePictureText" />
+
+    <Button
+        android:id="@+id/sendEmailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_alignBaseline="@+id/sendEmailText"
+        android:layout_alignBottom="@+id/sendEmailText"
+        android:layout_alignLeft="@+id/changePictureButton"
+        android:layout_alignStart="@+id/changePictureButton" />
+
+    <TextView
+        android:id="@+id/deleteAcctText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/sendEmailButton"
+        android:layout_alignLeft="@+id/sendEmailText"
+        android:layout_alignStart="@+id/sendEmailText" />
+
+    <Button
+        android:id="@+id/deleteAccountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pls Don't :("
+        android:layout_alignBaseline="@+id/deleteAcctText"
+        android:layout_alignBottom="@+id/deleteAcctText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>

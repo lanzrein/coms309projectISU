@@ -1,0 +1,1 @@
+in order to get a java program from the terminal : java src/../../*.java and then javac -cp /src pck.name.etc

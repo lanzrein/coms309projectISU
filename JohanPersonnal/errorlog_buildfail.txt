@@ -1,0 +1,78 @@
+Executing tasks: [:app:assembleDebug]
+
+Configuration on demand is an incubating feature.
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to C:\Users\johan\AppData\Local\Android\Sdk\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+Incremental java compilation is an incubating feature.
+:app:buildInfoDebugLoader
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:app:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:app:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:app:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportV42600Alpha1Library
+:app:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:app:prepareComAndroidVolleyVolley100Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:mergeDebugShaders UP-TO-DATE
+:app:compileDebugShaders UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:app:packageInstantRunResourcesDebug UP-TO-DATE
+:app:fastDeployDebugExtractor UP-TO-DATE
+:app:generateDebugInstantRunAppInfo UP-TO-DATE
+:app:checkManifestChangesDebug
+:app:transformClassesWithExtractJarsForDebug UP-TO-DATE
+:app:transformClassesWithInstantRunVerifierForDebug
+:app:transformClassesWithDependencyCheckerForDebug UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:mergeDebugJniLibFolders UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:app:transformNativeLibsAndResourcesWithJavaResourcesVerifierForDebug UP-TO-DATE
+:app:transformClassesWithInstantRunForDebug
+:app:transformClassesEnhancedWithInstantReloadDexForDebug
+:app:incrementalDebugTasks
+:app:preColdswapDebug
+:app:transformClassesWithInstantRunSlicerForDebug
+:app:transformClassesWithDexForDebug
+AGPBI: {"kind":"error","text":"Error converting bytecode to dex:\nCause: Dex cannot parse version 52 byte code.\nThis is caused by library dependencies that have been compiled using Java 8 or above.\nIf you are using the \u0027java\u0027 gradle plugin in a library submodule add \ntargetCompatibility \u003d \u00271.7\u0027\nsourceCompatibility \u003d \u00271.7\u0027\nto that submodule\u0027s build.gradle file.","sources":[{}],"original":"UNEXPECTED TOP-LEVEL EXCEPTION:\njava.lang.RuntimeException: Exception parsing classes\n\tat com.android.dx.command.dexer.Main.processClass(Main.java:781)\n\tat com.android.dx.command.dexer.Main.processFileBytes(Main.java:747)\n\tat com.android.dx.command.dexer.Main.access$1200(Main.java:88)\n\tat com.android.dx.command.dexer.Main$FileBytesConsumer.processFileBytes(Main.java:1689)\n\tat com.android.dx.cf.direct.ClassPathOpener.processArchive(ClassPathOpener.java:284)\n\tat com.android.dx.cf.direct.ClassPathOpener.processOne(ClassPathOpener.java:166)\n\tat com.android.dx.cf.direct.ClassPathOpener.process(ClassPathOpener.java:144)\n\tat com.android.dx.command.dexer.Main.processOne(Main.java:695)\n\tat com.android.dx.command.dexer.Main.processAllFiles(Main.java:592)\n\tat com.android.dx.command.dexer.Main.runMultiDex(Main.java:376)\n\tat com.android.dx.command.dexer.Main.run(Main.java:290)\n\tat com.android.builder.internal.compiler.DexWrapper.run(DexWrapper.java:54)\n\tat com.android.builder.core.DexByteCodeConverter.lambda$dexInProcess$0(DexByteCodeConverter.java:174)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: com.android.dx.cf.iface.ParseException: bad class file magic (cafebabe) or version (0034.0000)\n\tat com.android.dx.cf.direct.DirectClassFile.parse0(DirectClassFile.java:476)\n\tat com.android.dx.cf.direct.DirectClassFile.parse(DirectClassFile.java:406)\n\tat com.android.dx.cf.direct.DirectClassFile.parseToInterfacesIfNecessary(DirectClassFile.java:388)\n\tat com.android.dx.cf.direct.DirectClassFile.getMagic(DirectClassFile.java:251)\n\tat com.android.dx.command.dexer.Main.parseClass(Main.java:793)\n\tat com.android.dx.command.dexer.Main.access$1600(Main.java:88)\n\tat com.android.dx.command.dexer.Main$ClassParserTask.call(Main.java:1728)\n\tat com.android.dx.command.dexer.Main.processClass(Main.java:779)\n\t... 16 more\n","tool":"Dex"}
+AGPBI: {"kind":"error","text":"1 error; aborting","sources":[{}]}
+
+ FAILED
+:app:buildInfoGeneratorDebug
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:transformClassesWithDexForDebug'.
+> com.android.build.api.transform.TransformException: java.lang.RuntimeException: com.android.ide.common.process.ProcessException: java.util.concurrent.ExecutionException: com.android.ide.common.process.ProcessException: Return code 1 for dex process
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 1.926 secs

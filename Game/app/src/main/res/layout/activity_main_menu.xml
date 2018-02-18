@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.iastate.cs.proj_309_vc_b_4.game.Activities.MainMenu">
+
+    <Button
+        android:id="@+id/playMenu"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="Play ! "/>
+    <Button
+    android:id="@+id/leaderboards"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+    android:text="Leaderboards"
+    />
+
+    <Button
+        android:id="@+id/myProfile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="My Profile"/>
+    <Button
+        android:id="@+id/friendsList"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="Friends"/>
+
+    <Button
+        android:id="@+id/mapEditor"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="Map Editing menu"/>
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="Settings" />
+
+    <Button
+        android:id="@+id/adminMenu"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="Admin Menu" />
+
+    <Button
+        android:id="@+id/logOut"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="Log out" />
+
+
+</LinearLayout>

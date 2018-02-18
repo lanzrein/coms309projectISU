@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="300dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:id="@+id/username"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/profilePicture"
+        android:layout_alignLeft="@+id/profilePicture"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/playerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player ID:"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of wins :"
+        android:layout_below="@id/playerID"
+        android:id="@+id/noWins"
+        />
+
+    <TextView
+        android:id="@+id/noLoss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noWins"
+        android:text="Number of loss : "
+        />
+
+    <TextView
+        android:id="@+id/personalMessage"
+        android:layout_below="@id/noLoss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message : "/>
+
+    <TextView
+        android:id="@+id/numReports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/personalMessage"
+        android:text="Number of reports: " />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/profilePicture"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="20px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        />
+
+
+    <Button
+        android:id="@+id/closeReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/username"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/username"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:onClick="closePopUp"
+        android:text="Close" />
+
+
+    <Button
+        android:id="@+id/banUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/personalMessage"
+        android:layout_toRightOf="@+id/personalMessage"
+        android:onClick="banUser"
+        android:text="Ban" />
+
+
+
+
+</RelativeLayout>

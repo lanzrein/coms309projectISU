@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <ScrollView
+        android:id="@+id/game_lineup_scroll_list"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="50">
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/game_lineup_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </ScrollView>
+
+    <ListView
+    android:id="@+id/game_lineup_unitpool"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="50" />
+
+</LinearLayout>

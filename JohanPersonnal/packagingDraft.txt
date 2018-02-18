@@ -1,0 +1,43 @@
+Packaging and structure. 
+
+
+General 
+	ArgumentVerification(<0, null, contains....)
+	Time(Enum)
+GUI
+	Draw
+	-> various painters for elements. 
+Server
+	ActionConsequences
+	SendResult
+	ReceiveResult
+	Main(-> where will it be hosted ? laptop ? phone ?)
+	Level	
+Client
+	Action
+	SendResult
+	ReceiveResult
+	MainActivity(-> what starts when the application is launched)
+Utils
+	Animation
+	Sorting(interface)
+	Compressing(interface)
+	Serializiation(interface)
+	
+GamePlay
+	Player
+	Attacker(inh. Player)
+	Defender(inh. Player)
+	MapEditor
+	Moderator/admin
+	
+	Map
+	Cell
+	Subcell
+	Square(Enum)
+	Tower(->later on inh. for spec.)
+	Monster(->later on inh. for spec.)
+	MovementHandler
+	SecondaryMenus -> how many ? 
+	StartMenu
+	

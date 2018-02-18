@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name_of_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Name of the map :
+"/>
+    <TextView
+        android:id="@+id/descriptionOfMap"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+        android:text="Short description of the map :
+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_of_map"/>
+
+    <TextView
+        android:id="@+id/authorName"
+        android:text="Author is :
+"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descriptionOfMap"/>
+
+    <ImageView
+        android:layout_below="@+id/authorName"
+        android:id="@+id/thumbnail_of_map"
+        android:layout_width="192dp"
+        android:layout_height="108dp"
+        android:layout_alignParentRight="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="3">
+        <Button
+            android:id="@+id/close_map_dialog"
+            android:text="Close"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/edit_map"
+            android:text="Edit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/delete_map"
+            android:text="Delete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

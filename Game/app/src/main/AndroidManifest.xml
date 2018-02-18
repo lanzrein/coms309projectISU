@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.iastate.cs.proj_309_vc_b_4.game">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.RegisterActivity"
+            android:label="Welcome To Fantasy Tower">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".Activities.playmenus.PlayMenuActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.playmenus.MultiplayerGameLobbyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.gameactivities.One_v_One"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activities.FriendsList"
+            android:label="@string/title_activity_friends_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Activities.MainMenu"
+            android:label="Main Menu" />
+
+        <activity
+            android:name=".Activities.SettingsActivity"
+            android:label="Settings Menu" />
+
+        <activity android:name=".Activities.AdminMenu.AdminMain" />
+
+        <activity android:name=".Activities.MyProfileActivity" />
+
+        <activity
+            android:name=".Activities.MyMessages"
+            android:label="My messages" />
+        <activity
+            android:name=".Activities.Leaderboard.LeaderboardsActivity"
+            android:label="Leaderboard" />
+        <activity android:name=".Activities.MapEditing.MapEditorMenu" />
+
+        <activity android:name=".Activities.MapEditing.EditMapActivity"
+            android:screenOrientation="landscape"
+            />
+
+        <activity android:name=".Activities.MapEditing.MyMapsActivity" />
+
+        <activity
+            android:name=".Activities.gameactivities.GameSolo"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+            ></activity>
+
+        <activity android:name=".Activities.EndGame.EndScreen"></activity>
+
+    </application>
+
+</manifest>

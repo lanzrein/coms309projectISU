@@ -1,0 +1,69 @@
+http://asktog.com/atc/principles-of-interaction-design/
+Aesthetics - 
+Usability > Fashion
+Leave design to people that know how to do it
+edu.iastate.coms309.User test the visual design as muc has the behavioral design
+Anitipation - 
+Give all info and tools for each step
+Autonomy - 
+Computer, interface, task enviroment all belong to the user. 
+Give user breathing room. But not too much freedom
+Enable users to make their own decision
+Exercicse responsible control
+Status mechanism to keep users aware and informed -> feedback
+Keep status info up to date and within easy view, ensure it is accurate
+Color - 
+Give cues outer than color. 
+Test it - 
+Do not avoid it. 
+
+Consistency : 
+1. Top lvl 
+- platform consistency - be general and consistend with standards
+- in house consistency - maintain a general look & feel across product
+3. overall look & feel of a single app. 
+4. small visible structures - icons 
+Continuity - over time strive for it and not consistency
+Default within fields. 
+Defaults should be intelligent and responsive
+replace the word default with a good term
+-> both voc and design must show when a reversion occurs 
+
+Discoverability : 
+- do not hide complexity/(if done do so in showroom)
+-> if user cant find it, it doesnt exist
+- all object necessary for sucess use of soft should be visible at all time
+- no exception of elegance.
+- (for small device ok) controls do not belong in th emiddle of content area. 
+
+Efficiency - 
+Keep the user occupied
+Look at the user productivity 
+Error message should help
+
+explorable interfaces - 
+user should have well marked roads to find their way around interfaces
+- make a tutorial ? 
+- make actions reversible !!!! 
+- give a sense of "home"
+- always allow undo/way out 
+- make it easy to stay in
+
+Latency reduction - 
+when possible use multi-threading to push latency in background. 
+reduce the user latency ( visual or oral feedback , trap multiple clicks at the same object))
+
+-keep user informed of delay. 
+- make it fast 
+
+Learnability : 
+- limit the trade offs
+- avoid only testing for learnability 
+
+- Ensure user never lose progress
+- txt that must be read should have high contrast 
+- use a good font size
+- make unique label for buttons and menus
+
+- make navigation visible 
+- limit screen counts by using overlay 

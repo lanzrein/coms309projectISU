@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:layout_marginTop="5dp"
+
+        android:id="@+id/editUsername"
+        android:hint="Username" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+
+        android:layout_toRightOf="@+id/editUsername"
+        android:id="@+id/editID"
+        android:hint="ID#"/>
+
+
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_toEndOf="@+id/editID"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/editID"
+        android:text="Add!"
+        />
+    <!--android:layout_below="@+id/image"-->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:layout_toRightOf="@id/confirm"
+        android:id="@+id/cancel"
+        android:text="Cancel"
+        />
+
+</RelativeLayout>

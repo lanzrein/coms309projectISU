@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" > <!-- test horizontal -->
+    <TextView android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView is here"/>
+    <Button android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="This is a button press it to access next view"
+        android:onClick="onPressMain"/>
+
+    <!-- if we want to add more GUI pile them up here -->
+
+
+</LinearLayout>

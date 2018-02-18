@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dev</string>
+    <string name="confirm_dialog_message">Do you want to go to first view ?</string>
+    <string name="confirm_dialog_title">Pop up pop</string>
+    <string name="confirm">Yes go back</string>
+    <string name="cancel">No stay hewre</string>
+</resources>
